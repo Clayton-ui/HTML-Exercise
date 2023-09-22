@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>HTML exercise - Clayton Lam</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#citations">Citations</a>
+      </nav>
+	</header>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <!-- added <a></a> between the words that wanted to link -->
+        <h3>An <a href="https://www.youtube.com/">in-text link</a> to YouTube</h3> 
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <form method="post"action="#">
+          <label for="form-name">Favorite food:</label>
+          <input type="text" id="form-name" placeholder="banana">
+        </form>
+      </section>
+
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <!-- adding attribute and target blank so that it will direct to a new link -->
+        <a href="https://www.instagram.com/" target="_blank">
+          <!-- importing the image from the img file and changed the size of the img -->
+          <img src="img/Instagram_logo_2022.svg.png" height="100" width="100">
+        </a>
+        
+        <!-- also added a short caption -->
+        <figcaption>Image linked to Instagram</figcaption>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <!-- added h1 to h4, however the the style is not correct, so I added a style and their default font size, also fixing the spacing between h1 and h2 -->
+        <h1 style="font-size: 24px; ">Heading number 1</h1>
+        <h2 style="font-size: 18px; margin-top: 0">Heading number 2</h2>
+        <h3 style="font-size: 16px; font-style: normal;">Heading number 3</h3>
+        <h4 style="font-size: 14px;">Heading number 4</h4>
+
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <!-- adding a small paragraph with plain text -->
+        <p>Hi, this is a paragraph that does not have any meaning to it</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+      </section>
+
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Unknown. (Unknown). (2023). <strong>Instagram [Image]</strong>. Retrieved from <a href="https://en.wikipedia.org/wiki/Instagram">https://en.wikipedia.org/wiki/Instagram</a>.</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
